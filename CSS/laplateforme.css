@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+}
+
+/* ##########################
+   #                        #
+   #      accueil.html      #
+   #                        #
+   ########################## */
+
+body {
+    background-color: whitesmoke;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    /* position: sticky; */
+    top: 0;
+    background-color: #fff; 
+    padding: 10px 0px;
+}
+
+.tab{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.tab a{
+    margin-right: 20px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tab a img {
+    padding: 0 350px 0 40px;
+    width: 380px;
+    height: 60px;
+}
+
+.tab > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.tab > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.tab > ul > li {
+    float: left;
+    position: relative;
+}
+
+.tab > ul > li >a {
+    padding: 20px 30px;
+    color: grey;
+}
+
+.tab > ul > li:hover a {
+    padding: 40px 30px 20px 30px;
+} 
+
+.tab li {
+    list-style: none;
+}
+
+.tab li:hover .submenu {
+    padding: 0;
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.submenu {
+    display: none;
+    background-color: #fff;
+}
+
+.submenu li {
+    border-bottom: 1px solid #336699;
+}
+
+.submenu li a {
+    padding: 15px 30px;
+    font-size: 13px;
+    color: grey;
+    width: 270px;
+}
+
+.menu1:hover {
+    border-top: 5px solid #336699;
+    /* background-color: #000; */
+}
+
+.menu2:hover {
+    border-top: 5px solid #336699;
+}
+
+.menu3:hover {
+    border-top: 5px solid #336699;
+}
+
+.menu4:hover {
+    border-top: 5px solid #336699;
+}
+
+.submenu li:hover {
+    background-color: #336699;
+}
+
+.submenu li:hover a {
+    background-color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+#introduction {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.leftIntroduction {
+    padding: 50px 90px;
+    width: 580px;
+    height: 625px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #336699;
+}
+
+.leftIntroduction p {
+    padding: 0 0 25px;
+    width: 450px;
+    display: block;
+    color: #fff;
+    font-size: 25px;
+}
+
+.leftIntroductionBox2 {
+    text-align: center;
+}
+
+.leftIntroductionBox3 {
+    margin-bottom: 10px;
+    padding: 15px 22px;
+    background-color: #FF2063;
+    border-radius: 100px;
+    border-width: 2px;
+    letter-spacing: 1px;
+}
+
+.leftIntroductionBox3 button {
+    color: #fff;
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.leftIntroductionBox4 p {
+    text-align: center;
+    color: rgba(255, 255, 255, .5);
+    font-size: 12px;
+}
+
+.rightIntroduction {
+    width: 725px;
+    height: 725px;
+    background-image: url(../img/HP_visual_light.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    margin-top: 20px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #336699;
+}
+
+#curriculum {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    color: #336699;
+}
+
+.curriculumBox {
+    margin: 20px;
+    padding: 0 40px 40px 40px;
+    width: 300px;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.curriculumPicture img {
+    margin: 20px 20px 40px 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.curriculumDescription h4 {
+    padding: 0 0 19px;
+    font-size: 22px;
+}
+
+.curriculumDescription p {
+    padding: 0 0 19px;
+    font-size: 19px;
+}
+
+.curriculumButton {
+    margin: 40px 0 0 0;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCA4B;
+    border-radius: 100px;
+}
+
+.curriculumButton button{
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#panel {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    color: #336699;
+}
+
+.panelBox {
+    margin-top: 40px;
+    padding: 15px 50px 15px 50px;
+    width: 1125px;
+    height: 135px;
+    background-color: #fff;
+    display: flex;
+
+}
+
+.panelPicture img {
+    margin: 20px 20px 40px 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.panelDescription h4 {
+    padding: 0 0 19px;
+    font-size: 22px;
+}
+
+.panelDescription p {
+    padding: 0 0 19px;
+    font-size: 19px;
+}
+
+.panelButton {
+    margin: 40px 0 0 0;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCA4B;
+    border-radius: 100px;
+}
+
+.panelButton button{
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#youtube {
+    margin-top: 140px;
+    padding-top: 70px;
+    color: #fff;
+    background-color: #ffa000;
+}
+
+.youtubeDescription {
+    margin: 0 90px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.youtubeDescription h2 {
+    padding: 0 0 10px;
+    font-size: 40px;
+}
+
+.youtubeDescription p {
+    font-size: 18px;
+}
+
+.youtubeBox {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.youtubeBoxes {
+    padding: 0 40px 20px 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: #313131;
+    color: #fff;
+}
+
+.footerBox {
+    padding: 80px 0;
+}
+
+.footerBox p b{
+    font-size: 18px;
+}
+
+.footerBox p {
+    padding: 0 0 18px;
+    font-size: 16px;
+}
+
+.footerImg1 img {
+    width: 410px;
+    height: 60px;
+}
+
+.footerBox button {
+    padding: 10px 40px;
+    font-size: 22px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footerImg2 img {
+    margin-top: 60px;
+    width: 130px;
+    height: 60px;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footerLogo ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.footerLogo ul li a {
+    margin: 10px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 42px;
+    height: 42px;
+    font-size: 22px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.footerLogo i {
+    color: #313131;
+}
