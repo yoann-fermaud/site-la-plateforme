@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    /* font-family: 'Roboto Slab',Georgia,"Times New Roman",serif; */
 }
 
 /* ##########################
@@ -19,6 +20,7 @@ nav{
     top: 0;
     background-color: #fff; 
     border-bottom: 1px solid grey;
+    z-index: 1;
 }
 
 .tabPicture img {
@@ -62,7 +64,7 @@ nav{
 }
 
 .tab > ul > li:hover a {
-    padding: 40px 30px 20px 30px;
+    padding: 15px 30px 20px 30px;
 } 
 
 .tab li {
@@ -137,9 +139,10 @@ body {
 }
 
 .leftIntroduction {
-    padding: 35px 80px;
-    width: 580px;
-    height: 625px;
+    /* padding: 35px 80px; */
+    margin: 0 20px;
+    width: 800px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,6 +176,7 @@ body {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    transition: 1s;
 }
 
 .leftIntroductionBox4 p {
@@ -182,8 +186,8 @@ body {
 }
 
 .rightIntroduction img {
-    width: 725px;
-    height: 725px;
+    width: 800px;
+    height: 800px;
     display: block;
 }
 
@@ -200,7 +204,7 @@ body {
 #curriculum {
     display: flex;
     justify-content: center;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     color: #336699;
 }
 
@@ -249,6 +253,11 @@ body {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    letter-spacing: 2px;
 }
 
 #panel {
@@ -265,9 +274,8 @@ body {
     padding: 15px 50px 15px 50px;
     width: 1125px;
     height: 135px;
-    background-color: #fff;
     display: flex;
-
+    background-color: #fff;
 }
 
 .panelPicture img {
@@ -303,6 +311,7 @@ body {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    transition: 1s;
 }
 
 #youtube {
@@ -343,7 +352,7 @@ body {
 
 /* ##########################
    #                        #
-   #     Qui sommes nous    #
+   #  qui-sommes-nous.html  #
    #                        #
    ########################## */
 
@@ -469,6 +478,82 @@ body {
     color: #7D7D7D;
 }
 
+/* ##########################
+   #                        #
+   #       news.html        #
+   #                        #
+   ########################## */
+
+#newsHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #275fa0;
+}
+
+.newsHeadBox {
+    padding: 80px 0;
+    margin: 0 40px;
+}
+
+.newsHeadBox h1 {
+    padding-bottom: 20px;
+    width: 400px;
+    font-size: 42px;
+}
+
+.newsHeadBox p {
+    color: #D4CCFF;
+    font-size: 16px;
+}
+
+.newsHeadBox iframe {
+    display: block;
+}
+
+#newsLetter {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#newsLetter a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.newsLetterBox {
+    margin: 10px 30px;
+    width: 320px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    position: relative;
+    box-shadow: 0px 0px 5px #7D7D7D;
+    transition: .3s;
+}
+
+.newsLetterBoxes img {
+    width: 320px;
+    height: 200px;
+}
+
+.newsLetterBoxes h2 {
+    padding: 40px;
+    margin: 0 20px;
+}
+
+#newsLetter .newsLetterBox:hover {
+    box-shadow: 0px 0px 40px #313131;
+}
 
 /* ##########################
    #                        #
@@ -510,6 +595,7 @@ footer {
     border: 2px solid rgba(255, 255, 255, 1);
     border-radius: 5px;
     cursor: pointer;
+    transition: 1s;
 }
 
 .footerImg2 img {
