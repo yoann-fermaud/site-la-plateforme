@@ -1,0 +1,28 @@
+.dae-shortcode-download-wrapper .dae-shortcode-register-category-interests-wrap {
+    display: none;
+    min-width: 250px !important;
+    max-width: 350px !important;
+}
+.dae-shortcode-download-wrapper .dae-shortcode-register-category-interests {
+    padding: 10px 0 !important;
+}
+.dae-shortcode-download-wrapper .dae-shortcode-register-category-interests h4 {
+    border-bottom: 1px dotted !important;
+    padding: 0 0 0.4em 0 !important;
+    text-transform: uppercase !important;
+}
+.dae-shortcode-download-wrapper .dae-shortcode-register-input-wrap-interest {
+    display: inline-block !important;
+    padding: 0.4em 0.2em !important;
+}
+.dae-shortcode-download-wrapper .dae-shortcode-register-input-wrap-interest label,
+.dae-shortcode-download-wrapper .dae-shortcode-register-input-wrap-interest input[type="radio"] {
+    cursor: pointer !important;
+}
+.dae-shortcode-download-wrapper .dae-shortcode-register-input-wrap-interest input,
+.dae-shortcode-download-wrapper .dae-shortcode-register-input-wrap-interest span,
+.dae-shortcode-download-wrapper .dae-shortcode-register-form .dae-shortcode-register-category-interests input[type="checkbox"] {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    font-size: 0.9em !important;
+}
