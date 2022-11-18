@@ -557,6 +557,202 @@ button:hover {
 
 /* ##########################
    #                        #
+   #     contacct.html      #
+   #                        #
+   ########################## */
+
+#formHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background: #88c1d0;
+    box-shadow: inset 0px -260px 0px 0px whitesmoke;
+}
+
+#formHead form {
+    padding: 60px 40px;
+    width: 900px;
+    height: 800px;
+    background-color: #fff;
+}
+
+.formHeadTitle h1 {
+    padding: 30px 0 60px;
+    margin: 0 120px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+.formTitle h2 {
+    color: #275fa0;
+    font-size: 35px;
+}
+
+.formBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap; 
+}
+
+.formBox select {
+    margin: 15px 0;
+    padding: 15px 20px 15px 15px;
+    width: 440px;
+    height: 50px;
+    border: 1px solid rgba(71,74,182,0.12);
+}
+
+.formBox input {
+    margin: 15px 0;
+    width: 440px;
+    height: 50px;
+    border: 1px solid rgba(71,74,182,0.12);
+}
+
+#email {
+    width: 900px;
+    height: 50px;
+    
+}
+.formBox textarea {
+    width: 900px;
+    height: 100px;
+    border: 1px solid rgba(71,74,182,0.12);
+}
+
+.checkBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checkBox input {
+    margin: 60px -180px;
+}
+
+.formSubmit {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #275fa0;
+    border-radius: 100px;
+}
+
+.formSubmit input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+
+#oth {
+    padding: 0 0 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    color: #275fa0;
+}
+
+.othBox {
+    padding: 40px 20px 10px 20px;
+    width: 940px;
+}
+   
+.othBox h2 {
+    font-size: 34px;
+}
+
+.othBox h3 {
+    font-size: 29px;
+}
+
+.othBox p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.othBoxLogo ul {
+    width: 940px;
+    display: flex;
+    list-style-type: none;
+}
+
+.othBoxLogo ul li a {
+    margin: 10px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 42px;
+    height: 42px;
+    font-size: 22px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.othBoxLogo .fa-facebook{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4267B2;
+}
+
+.othBoxLogo .fa-instagram {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #E1306C;
+}
+
+.othBoxLogo .fa-linkedin {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0e76a8;
+}
+
+.othBoxLogo .fa-twitter {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1DA1F2;
+}
+
+
+
+/* ##########################
+   #                        #
    #        footer          #
    #                        #
    ########################## */

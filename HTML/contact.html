@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations - Ecole Informatique La Plateforme</title>
+    <link rel="stylesheet" href="../CSS/laplateforme.css">
+    <script src="https://kit.fontawesome.com/058d5dcce5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="tabPicture">
+            <a href="accueil.html">
+                <img src="../img/logo_laplateforme.png" alt="">
+            </a>
+        </div>
+        <div class="tab">
+            <ul>
+                <li class="menu1"><a>Qui somme-nous ?</a>
+                    <ul class="submenu">
+                        <li><a href="qui-sommes-nous.html">Qui somme-nous ?</a></li>
+                    </ul>
+                </li>
+                <li class="menu2"><a>Cursus</a>
+                    <ul class="submenu">
+                        <li><a href="aws-restart.html">AWS re/Start</a></li>
+                        <li><a href="plateforme-start.html">La Plateforme/Start</a></li>
+                    </ul>
+                </li>
+                <li class="menu3"><a href="news.html">News</a></li>
+                <li class="menu4"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="formHead">
+        <div class="formHeadTitle">
+            <h1>Vous souhaitez des informations ou candidater à La Plateforme_ ?</h1>
+        </div>
+        <form>
+            <div class="formTitle">
+                <h2>Remplissez ce formulaire et nous reviendrons vers vous</h2>
+            </div>
+            <div class="formBox">
+                <select name="box" id="">
+                    <option value="">La formation qui vous intéresse</option>
+                    <option value="Coding School">Coding School</option>
+                    <option value="AI School">AI School</option>
+                    <option value="Security School">Security School</option>
+                    <option value="Bachelor IT">Bachelor IT</option>
+                    <option value="Développeur web - TOULON">Développeur web - TOULON</option>
+                    <option value="Code à la carte - TOULON">Code à la carte - TOULON</option>
+                    <option value="Code à la carte - BRIGNOLES">Code à la carte - BRIGNOLES</option>
+                    <option value="Executive Education">Executive Education</option>
+                    <option value="La Plateforme / START">La Plateforme / START</option>
+                    <option value="Innovation Lab">Innovation Lab</option>
+                    <option value="AWS re/Start">AWS re/Start</option>
+                </select>
+                <select name="box" id="">
+                    <option value="">Souhaitez-vous passer un entretien préalable au test d'entrée ?</option>
+                    <option value="Oui, je souhaite passer un entretien avec un membre de l'équipe pédagogique pour avoir de plus amples informations">Oui, je souhaite passer un entretien avec un membre de l'équipe pédagogique pour avoir de plus amples informations</option>
+                    <option value="Non, je souhaite candidater et passer le test d'entrée sans entretien préalable">Non, je souhaite candidater et passer le test d'entrée sans entretien préalable</option>
+                </select>
+                <input 
+                    type="text" 
+                    pattern="[A-z]*" 
+                    placeholder="Prénom"
+                    required
+                >
+                <input 
+                    type="text" 
+                    pattern="[A-z]*" 
+                    placeholder="Nom"
+                    required
+                >
+                <input
+                    id="email"
+                    type="email" 
+                    pattern=".+@globex\.com"
+                    placeholder="Email"
+                    required
+                >
+                <input 
+                    type="tel"
+                    pattern="[0-9]"
+                    placeholder="Téléphone"
+                    required
+                >
+                <input 
+                    type="text"
+                    pattern="[A-z]*[0-9]"
+                    placeholder="Adresse"
+                    required
+                >
+                <input 
+                    type="text"
+                    pattern="[0-9]"
+                    placeholder="Code Postal"
+                    required
+                >
+                <input 
+                    type="text"
+                    pattern="[A-z]*"
+                    placeholder="Ville"
+                    required
+                >
+                <input 
+                    type="text"
+                    pattern="[A-z]*"
+                    placeholder="Comment nous avez-vous connu ?"
+                    required
+                >
+                <input 
+                    type="text"
+                    pattern="[A-z]*"
+                    placeholder="Quel est votre niveau d'étude ?"
+                    required
+                >
+                <textarea 
+                    name="textarea"
+                    cols="30" 
+                    rows="10"
+                    placeholder="Message" 
+                    >
+                </textarea>
+                <div class="checkBox">
+                    <input type="checkbox" name="" id="" >
+                    <span>Inscrivez-vous à notre newsletter</span>
+                </div>
+                <div class="formSubmit">
+                    <input type="submit">
+                </div>
+            </div>
+        </form>
+    </section>
+    <section id="oth">
+        <div class="othBox">
+            <h2>Une autre question ?</h2>
+            <p><b>Nous sommes joignables :</b></p>
+            <p><b>- Par mail contact@laplateforme.io</b></p>
+            <p><b>- Par téléphone au 04.84.89.43.69 du lundi au vendredi de 9h à 17h</b></p>
+            <p><b>- Sur les réseaux sociaux</b></p>
+        </div>
+        <div class="othBoxLogo">
+            <ul>
+                <li><a href="https://www.facebook.com/LaPlateformeIO"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/LaPlateformeIO/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/school/laplateformeio/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com/LaPlateformeIO"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="othBox">
+            <h3>Télécharger notre brochure</h3>
+        </div>
+        <div class="othBox">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23227.648086115383!2d5.3351051791015704!3d43.304712599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c13ddc0211b9%3A0xd1642ae4b32c4bc4!2sEcole%20La%20Plateforme%2C%20le%20Campus%20M%C3%A9diterran%C3%A9en%20du%20Num%C3%A9rique!5e0!3m2!1sfr!2sfr!4v1668794226493!5m2!1sfr!2sfr" width="940" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <footer>
+        <div class="footerBox">
+            <a class="footerImg1">
+                <img src="../img/Logo_LaPLateforme_footer.svg" alt="">
+            </a>
+            <div class="footerLogo">
+                <ul>
+                    <li><a href="https://www.facebook.com/LaPlateformeIO"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/LaPlateformeIO/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/school/laplateformeio/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/LaPlateformeIO"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/c/LaPlateformeIO"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerBox">
+            <p><b>La Plateforme</b></p>
+            <p>Accueil</p>
+            <p>Qui sommes-nous ?</p>
+            <p>Notre brochure</p>
+            <p>Ils parlent de nous</p>
+            <p>Annuaire des Plateformeurs</p>
+            <p>Alumni des Plateformeurs</p>
+            <p>Taxe d'apprentissage</p>
+        </div>
+        <div class="footerBox">
+            <p><b>Les Formations</b></p>
+            <p>La Plateforme/Start</p>
+            <p>Coding School</p>
+            <p>Bachelor IT</p>
+            <p>Artificial Intelligence School</p>
+            <p>Cyber Security School</p>
+        </div>
+        <div class="footerBox">
+            <p><b>Informations</b></p>
+            <p>8 rue d’hozier, 13002 Marseille</p>
+            <p>Tel : 04.84.89.43.69</p>
+            <button><b>Contact</b></button>
+            <br>
+            <a class="footerImg2">
+                <img src="../img/Logo_April_footer2.svg" alt="">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
